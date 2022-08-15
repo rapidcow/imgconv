@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imgconv"
+version = "0.1.0"
+description = "HEIC -> JPG and images to PDF"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name="rapidcow", email="thegentlecow@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pyheif>=0.7.0",
+    "Pillow>=9.1.1",
+]
+license = {text="MIT"}
